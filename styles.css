@@ -21,3 +21,16 @@ body {
     padding: 25px 30px;
     border-radius: 5px;
 }
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.container .title::before{
+    content: '';
+    position: absolute;
+    
+}
